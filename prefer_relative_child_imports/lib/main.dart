@@ -12,7 +12,7 @@ class PreferRelativeChildImportsPlugin extends Plugin {
 
   @override
   void register(PluginRegistry registry) {
-    registry.registerLintRule(PreferRelativeChildImportsRule());
+    registry.registerWarningRule(PreferRelativeChildImportsRule());
     registry.registerFixForRule(
       PreferRelativeChildImportsRule.code,
       ReplaceWithChildRelativeImportFix.new,

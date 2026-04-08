@@ -1,8 +1,6 @@
 plugins:
   prefer_relative_child_imports:
     path: ../prefer_relative_child_imports
-    diagnostics:
-      prefer_relative_child_imports: true
 
 linter:
   rules:

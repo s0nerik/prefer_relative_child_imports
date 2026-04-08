@@ -1,7 +1,7 @@
 name: prefer_relative_child_imports
 description: >
   Like `prefer_relative_imports`, but suggests relative imports only for sibling files and child directories.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/s0nerik/prefer_relative_child_imports/tree/main/prefer_relative_child_imports
 repository: https://github.com/s0nerik/prefer_relative_child_imports/tree/main/prefer_relative_child_imports
 topics:

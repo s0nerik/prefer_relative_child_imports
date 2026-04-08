@@ -4,7 +4,7 @@ Same as built-in [`prefer_relative_imports`](https://dart.dev/tools/linter-rules
 
 ## Setup
 
-Add the plugin and this diagnostic to `analysis_options.yaml` (and turn off `prefer_relative_imports`, `always_use_package_imports` if you used them):
+Add the plugin to `analysis_options.yaml` (and turn off `prefer_relative_imports`, `always_use_package_imports` if you used them):
 
 ```yaml
 plugins:
