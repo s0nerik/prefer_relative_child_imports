@@ -1,0 +1,8 @@
+name: app
+description: Example project for prefer_relative_child_imports.
+publish_to: none
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'

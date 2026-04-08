@@ -1,0 +1,21 @@
+name: prefer_relative_child_imports
+description: >
+  Like `prefer_relative_imports`, but suggests relative imports only for sibling files and child directories.
+version: 1.0.0
+homepage: https://github.com/s0nerik/prefer_relative_child_imports/tree/main/prefer_relative_child_imports
+repository: https://github.com/s0nerik/prefer_relative_child_imports/tree/main/prefer_relative_child_imports
+topics:
+  - lint
+  - structure
+  - relative
+  - package
+  - imports
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+dependencies:
+  analysis_server_plugin: ^0.3.13
+  analyzer: ^12.0.0
+  analyzer_plugin: ^0.14.7
+  path: ^1.9.1
